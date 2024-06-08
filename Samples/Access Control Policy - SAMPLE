@@ -1,0 +1,171 @@
+# Access Control Policy
+  
+[Organization]
+Access Control Policy  
+Version: 1.0  
+Policy Owner: Title, First Last  
+Contact Information: name@organization.com  
+Review Cycle: 3 Years  
+Approval Authority: Title, First Last  
+Approval Date: MM/DD/YYYY  
+
+<!--Insert Logo-->
+
+__Confidentiality Notice:__ This document contains proprietary information belonging to [Organization] The sharing of the document with unauthorized individuals is prohibited. 
+
+---  
+
+## Purpose
+The purpose of this Access Control Policy is to establish guidelines and procedures to safeguard the confidentiality, integrity, and availability of [Organization]'s information assets. This policy outlines the requirements for granting, managing, and revoking access to systems, applications, and data within the organization. 
+
+### Scope
+This policy applies to all employees, contractors, vendors, and any other individuals or entities with access to [Organization]'s information systems and resources. It encompasses all information assets owned, managed, or utilized by the organization, regardless of the location or medium on which they reside. 
+
+### Compliant
+All personnel are requried to comply with this Access Control Policy. Failure to adhere to these guidelines may result in disciplinary action, up to and including termination of employment. Additional legal consequence may be necessary in accordance with applicable laws and regulations. 
+
+### Document Control
+This Access Control Policy is distributed to [Roles] upon approval. It is accessible through [source] and should be readily available for reference by authorized personnel. 
+
+### Acknowledgement
+By accessing [Organization] systems and resources, individuals  acknowledge their understanding of and agreement to abide by the provisions outlined in this Access Control Plan. 
+
+## Revision History
+[DD-MMM-YYYY]  
+[ChangeSummary]
+
+[DD-MMM-YYYY]  
+[ChangeSummary]  
+
+---  
+
+# Roles & Responsibilities
+Establishing clear roles and responsibilities is paramount to the effective implementation of an access control policy. Each individual within an organization plays a crucial role in safeguarding sensitive information and ensuring the integrity of systems and resources. By defining specific roles and assigning corresponding responsibilities, organizations can streamline access management processes, mitigate security risks, and foster a culture of accountability. This section outlines the key roles associated with access control and delineates their respective responsibilities in upholding the organization's security posture and compliance with regulatory requirements. Roles and responsibilities associated with this Access Control Plan are identified below:
+  
+__System Owner:__ The individual or group responsible for the overall management, operation, and security of the access control systems. 
+
+__System Administrator:__ Personnel tasked with configuring, maintaining, and monitoring access controls within [Organization] systems. 
+
+__User:__ Individual granted access to the system and its resources, with varying levels of privileges based on their roles and responsibilities. 
+
+__Security Officer:__ The designated individual responsible for overseeing the implementation and enforcement of security policies, ensuring compliance with security standards and regulations. 
+
+__Information Security Officer:__ Oversees the overall information security posture of [Organization], including security control strategies, policies, and procedures. 
+
+__Human Resources (HR):__ Collaborates with the security teams to manage user access throughout the employment lifecycle - including, onboarding, transfers, and terminations. 
+
+# System Use Notification
+Systems identified as critical to [Organization] must present potential users with a dispaly notification banner notifying users of privacy and security measures that are related to the system. These notification will be consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines and state that:
+
+1. Users are accessing a [Organization] system;
+2. System usage may be monitored, recorded, and subject to audit;
+3. Unauthorized use of the system is prohibited and subject to criminal and civil penalties;
+4. Use of the system indicates consent to monitoring and recording.
+
+The system use notification message currently in use is as follows:  
+
+**"ATTENTION: You are accessing a system owned and operated by [Organization].**
+
+**This system is for authorized use only. Unauthorized access or use of this system may subject violators to criminal and civil penalties.**
+
+**Usage of this system may be monitored, recorded, and audited. By accessing and using this system, you consent to such monitoring, recording, and auditing.**
+
+**All activities performed on this system are subject to scrutiny. Users should have no expectation of privacy."** 
+
+# Access Enforcement
+Access control policies govern interactions between users or processes and system entities like devices, files, and domains. While primarily enforced at the system level, it's crucial to extend access controls to applications and services to enhance security and privacy. Physical access controls, distinct from logical controls, are managed separately under Physical and Environmental Protection controls. Integrating access controls at system, application, and physical levels ensures comprehensive security measures, safeguarding sensitive information and promoting asset integrity and confidentiality.
+
+[Organization] takes a "separation of duties" strategy to access enforcement. [Role] is responsible for defining the roles associated with various business processes for the organization. These roles are translated into logical access controls supported by an identity provider (IdP) such as Active Directory. The current IdP is listed within the [Organization] Asset Inventory. IdPs used must be capable of enforcing Role-Based Access Controls (RBAC). 
+
+User access is restricted to the permissions authorized according to their assigned RBAC role. Role assignments and role authorizations are managed, approved, and disapproved by the [Role]. For a detailed breakdown of the roles and permission, please reference Appendix A: RBAC Permissions Matrix [Link]. 
+
+[Role] is responsible for ensuring user role assignments are reviewed at least annually, or as access requirements change for users. If users are found with unnecessary role assignments that are no longer within the scope of their current duties, the authorizations will be removed as part of the review to align with the separation of duties strategy. 
+
+# Account Management
+Account Management policies govern the types of accounts permitted within [Organization] and how different actions affect those accounts. Managing accounts is a vital piece of preventing malicious actors from compromising critical information assets through user accesses. User accounts are managed by the [Role] with the support of the roles defined for the departments below:
+- [Department]: [Role/Title] Last Name, First Name
+- [Department]: [Role/Title] Last Name, First Name
+- [Department]: [Role/Title] Last Name, First Name
+
+Requests to create, modify or delete accounts must be routed to and approved by the [Role] and the corresponding department representative for the prospective user account.
+
+## Account Lifecycle
+[Organization] follows the "Join-Move-Leave" framework to manage account lifecycles. This framework breaks down the account lifecycle into three distinct phases:
+1. Join: This phase is defined by when an individual joins the organization and receives their accounts and access permissions.
+2. Move: The second phase describes when a user changes roles or their responsibilities grow within the organization and their access permissions require an update.
+3. Leave: The final phase of the lifecycle is when a user departs from the organization and access must be terminated.
+
+### Join
+The Join phase describes the policies and procedures for when a new user is onboarded into [Organization] and require access to its systems. This is typically in the context of a new hire, working with contractors, or even handling supply chain operations. 
+
+#### Account Policies
+- Each user is required to maintain a unique username identity within the system. 
+- Usernames follow a standard format of first and middle initial followed by last name (e.g. jmprince, kfkenny, mdmiranda). Where 2 or more users have the same username, a number will be added to the end of the account to create a unique identifier. 
+#### Account Requirements and Standards
+Access to [Organization] systems are restricted to authorized users only. Strict access controls are in place to validate the identity of all users requesting access to [Organization] systems. To request an account a user must provide the at least two (2) forms of identity with one (1) being a photo ID. Acceptable documents to verify a user's identity include, but are not limited to:
+
+* Driver's License
+* Government Issued ID Card
+* Birth Certificate
+* Passport or Passport Card
+  
+## Account Types  
+[Organization] maintains the following types of accounts to operate and maintain its information systems:
+### General User
+A general user is an individual who utilizes basic functionalities within the system. General user accounts are used for operational activities that do not require elevated access rights. 
+
+### Privileged User
+A privileged user possesses elevated access rights within the systems, enabling them to perform administrative tasks, perform maintenance, and access sensitive data. 
+
+### System Account
+A system account is a non-user account created for automtated processes or services within an information system, allowing them to access resources and perform specific tasks without direct human intervention. 
+
+### Emergency Account
+An emergency account is a backup account to gain access when other accounts are unable to be authorized due to catastrophic situations. Credentials for emergency accounts should be stored securely and safeguarded at all times. Access to this account should be monitored. 
+
+### Prohibited Account Types
+[Organization] does not permit the following account types within its information systems:  
+- Guest Accounts
+- Group Accounts
+- Temporary Accounts
+
+Guest, group, and temporary account pose an unnecessary risk to [Organization] and should not be used unless authorized in writing by the [Role]. Documented exceptions must be archived in [Location]. Exceptions will be reviewed annually or as exceptions are approved. 
+
+## Unsuccessful Logon Attempts
+Unsuccessful logon attempts can be an indicator that a system has been or is attempting to be attacked. The need to limit unsuccessful logon attempts and take subsequent action when the maximum number of attempts is exceeded applies regardless of whether the logon occurs via a local, network, or remote connection. 
+
+To reduce the risk of password-based attacks, [Organization] implements the following protections when detecting unsuccessful logon attempts:
+
+* Unsuccessful attempts are logged for auditing purposes and reviewed by administrators for unusual activity.
+* Accounts will lockout after three (3) unsuccessful logon attempts. 
+* Accounts that have been locked will remain locked for [#ofMinutes] minutes or until an administrator unlocks the account. 
+* Locked accounts will require proof of identity (Employee ID, photo ID, etc) before an adminsitrator can unlock an account. 
+* When administrators suspect that malicious logon attempts were made the Incident Response Plan will be initiated to investigate the event and determine the appropriate course of action, if any are required. 
+
+## Permissible Actions without Identification
+The ability to perform actions without an associated user identity increases the risk of unauthorized users performing malicious activity within the system without accountability. 
+
+[Organization] does not permit any actions on the system without the capability to associate actions to users. All actions by a user must be associated with a user account for auditing purposes through native or external logging mechanisms. 
+
+If exceptions are required for operational purposes, a request must be submitted and approved in writing to the [OrgApprover] containing:
+* Request Justification
+* Requested Actions
+* Specific System(s)
+
+A list of exceptions is maintained and made available at [link]. This link will be reviewed and updated annually, or as exception additions and substractions occur. 
+
+This list is reviewed and updated annually, or as major system changes occur. 
+
+# Access Methods
+## Mobile Device Access
+Mobile Device Access is defined as accessing [Organization] resources from smartphones, laptops, tablets, and other portable media devices. Mobile devices pose an increased risk due to their mobile nature, removing certain elements of control typically safeguarding [Organization] resources. To mitigate the risks involved with mobile devices, the policies outlined in this section describe the access control measures for mobile device within [Organization].
+
+### Device Management
+[Organization] leverages Mobile Device Management (MDM) systems to enforce secure configurations of mobile devices with access to organizational resources. The currently implemented MDM solution is documented in the [Organization] Asset Inventory. 
+
+All [Organization] mobile devices (tablets, smartphones, laptops, etc) that process, store, and share [Organization] data are required to be password protected. Passwords must meet the following complexity requirements:  
+- Pins must be at least 6 digits, or
+- Passwords must be at least 10 characters, or
+- Biometric locks are permitted, but not encouraged. 
+
+Multifactor authentication must be enabled when accessing [Organization] resources. Available methods of secondary authentication include: Phone call, text, and approved third party one-time password (OTP) applications from authenticator applications. 
