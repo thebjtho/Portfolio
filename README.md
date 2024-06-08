@@ -16,13 +16,16 @@ Here, you'll find a collection of my work samples, showcasing my expertise in he
 
 **What's inside?**
 
-Work Samples: Samples of security artifacts, diagrams, scripts and policies. 
-Articles and Blogs: In-depth research on various topics, including threat assessments and mitigation strategies.
-Best Practices Guides: Comprehensive guides on implementing effective security and privacy controls.
+Work Samples: Samples of security artifacts, diagrams, scripts and policies.  
+
+Articles and Blogs: In-depth research on various topics, including threat assessments and mitigation strategies.  
+
+Best Practices Guides: Comprehensive guides on implementing effective security and privacy controls.  
+
 Testimonials: Client and colleague feedback and success stories highlighting my impact. 
 
 **Let's Connect**
 Feel free to explore the repository, and if you have any questions or need personalized cybersecurity consulting, reach out to me at thebjtho.com or connect with me on X: @thebjtho.
 
-Thanks,
+Thanks,  
 BJ
