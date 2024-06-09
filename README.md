@@ -26,7 +26,7 @@ Testimonials: Client and colleague feedback and success stories highlighting my 
 
 **Let's Connect**  
 
-Feel free to explore the repository, and if you have any questions or need personalized cybersecurity consulting, reach out to me at thebjtho.com or connect with me on X: @thebjtho.
+Feel free to explore the repository, and if you have any questions or need personalized cybersecurity services, reach out to me at thebjtho.com or connect with me on X: @thebjtho.
 
 Thanks,  
 BJ
